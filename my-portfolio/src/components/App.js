@@ -1,23 +1,24 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import Header from './Header';
-import Home from './Home';
-import Data from './Data';
-import Project from './Project';
-import Contact from './Contact';
+import Header from '../components/Header';
+import Home from '../components/Home';
+import Project from './Projects';
+import Contact from '../components/Contact';
+import CV from '../components/CV';
 
 function App() {
   return (
     <Router>
       <Header />
       <Routes>
-        <Route exact path="/" element={<Home/>} />
-        <Route exact path="/projects" element={<Project/>} />
-        <Route exact path="/projects/:id" element={<Data/>} />
-        <Route exact path="/contact" element={<Contact/>} />
+        <Route path="/" element={<Home />} />
+        <Route path="/projects" element={<Project />} />
+        <Route path="/contact" element={<Contact />} />
+        <Route path="/cv" element={<CV />} />
       </Routes>
     </Router>
   );
 }
 
 export default App;
+

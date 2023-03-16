@@ -3,10 +3,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Mulish:ital,wght@0,800;0,1000;1,300;1,500;1,600;1,800&display=swap');
 
 
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-
 @layer base {
     html {
         font-family: 'Mulish', sans-serif;

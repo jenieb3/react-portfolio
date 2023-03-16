@@ -1,10 +1,11 @@
 import React from 'react';
+import myImage from '../assets/profile-pic.jpg';
 
 function Home() {
   return (
     <div>
       <h1>Jenelle Spio-Garbrah</h1>
-      <img src="../assets/profile-pic.png" alt="Jenelle" />
+      <img src={myImage} alt="Jenelle Spio-Garbrah" />
       <p>"Everything is designed. Few things are designed well." -- Brian Reed</p>
       <h2>Welcome to SpioDesigns</h2>
       <h2>About Me</h2>
