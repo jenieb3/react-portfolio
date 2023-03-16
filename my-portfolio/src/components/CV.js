@@ -4,7 +4,7 @@ import { Button } from 'react-bootstrap';
 
 function CV() {
   return (
-    <div>
+    <div style={{ marginBottom: '600px' }}>
       
       <p>
         <Button href={cvPDF} download="CV_Jenelle_Spio-Garbrah.pdf" variant="primary">
