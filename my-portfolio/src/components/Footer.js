@@ -1,5 +1,5 @@
 import React from 'react';
-import { Container, Typography, Button, Box } from '@mui/material';
+import { Container, Typography, Button, Box, Stack } from '@mui/material';
 import EmailIcon from '@mui/icons-material/Email';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import GitHubIcon from '@mui/icons-material/GitHub';
@@ -8,8 +8,8 @@ function Footer() {
   return (
     <Box sx={{ backgroundColor: 'primary.main', padding: 2 }}>
       <Container maxWidth="lg">
-        <Typography variant="h6" color="white">Ways to Contact Me</Typography>
-        <Typography color="white">
+        <Typography variant="h6" color="white">Contact</Typography>
+        <Stack direction="row" spacing={2}>
           <Button
             href="mailto:jenelle.garbrah3@gmail.com"
             startIcon={<EmailIcon />}
@@ -18,8 +18,6 @@ function Footer() {
           >
             Email
           </Button>
-        </Typography>
-        <Typography color="white">
           <Button
             href="https://www.linkedin.com/in/jenelle-spio-garbrah"
             startIcon={<LinkedInIcon />}
@@ -28,8 +26,6 @@ function Footer() {
           >
             LinkedIn
           </Button>
-        </Typography>
-        <Typography color="white">
           <Button
             href="https://github.com/jenieb3"
             startIcon={<GitHubIcon />}
@@ -38,10 +34,11 @@ function Footer() {
           >
             GitHub
           </Button>
-        </Typography>
+        </Stack>
       </Container>
     </Box>
   );
 }
 
 export default Footer;
+
