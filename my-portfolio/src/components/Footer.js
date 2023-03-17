@@ -4,11 +4,20 @@ import EmailIcon from '@mui/icons-material/Email';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import GitHubIcon from '@mui/icons-material/GitHub';
 
+
 function Footer() {
   return (
-    <Box sx={{ backgroundColor: 'primary.main', padding: 2 }}>
+    <Box sx={{
+      backgroundColor: 'primary.main',
+      padding: 1,
+      position: 'fixed',
+      bottom: 0,
+      width: '100%',
+      height:'45px'
+      
+    }}>
       <Container maxWidth="lg">
-        <Stack direction="row" spacing={2}>
+        <Stack direction="row" spacing={4}>
           <Button
             href="mailto:jenelle.garbrah3@gmail.com"
             startIcon={<EmailIcon />}
@@ -40,4 +49,3 @@ function Footer() {
 }
 
 export default Footer;
-

@@ -2,7 +2,6 @@ import React from 'react';
 import { Container, Nav, Navbar, } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 
-
 function Header() {
   return (
     <Navbar bg="light" expand="lg">
@@ -21,9 +20,6 @@ function Header() {
             </Link>
             <Link to="/contact" className="nav-link">
               Contact
-            </Link>
-            <Link to="/cv" className="nav-link">
-              CV
             </Link>
           </Nav>
         </Navbar.Collapse>

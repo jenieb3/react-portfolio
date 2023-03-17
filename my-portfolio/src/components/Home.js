@@ -1,8 +1,5 @@
 import React from 'react';
 import myImage from '../assets/profile-pic.jpg';
-import './Home.css';
-
-
 
 function Home() {
   return (

@@ -1,7 +1,7 @@
 const Data = [
     {
         id: 1,
-        title: "Profile",
+        title: "My CSS Flex-box Profile",
         deployedLink: "https://jenieb3.github.io/spio-garbrah-portfolio/",
         githubLink: "https://github.com/jenieb3/spio-garbrah-portfolio",
         screenshot: "project-one.png"

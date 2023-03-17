@@ -4,8 +4,7 @@ import Header from '../components/Header';
 import Home from '../components/Home';
 import Project from './Projects';
 import Contact from '../components/Contact';
-import CV from '../components/CV';
-
+import '../index.css'
 
 function App() {
   return (
@@ -15,7 +14,7 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/projects" element={<Project />} />
         <Route path="/contact" element={<Contact />} />
-        <Route path="/cv" element={<CV />} />
+        
         
       </Routes>
     </Router>

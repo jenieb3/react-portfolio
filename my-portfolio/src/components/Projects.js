@@ -13,22 +13,43 @@ function Project(props) {
   const { title, screenshot, deployedLink, githubLink } = props.project;
   return (
     <Col md={4} className="mb-4">
-      <Card>
-        <Card.Img variant="top" src={screenshot} />
-        <Card.Body>
-          <Card.Title>{title}</Card.Title>
-          <Button variant="primary" href={deployedLink} target="_blank" rel="noopener noreferrer">
-            View Demo
-          </Button>
-          {' '}
-          <Button variant="secondary" href={githubLink} target="_blank" rel="noopener noreferrer">
-            View Code
-          </Button>
+      <Card className="card-border" style={{ height: "300px", maxWidth: "550px" }}>
+        <Card.Img
+          variant="top"
+          src={screenshot}
+          style={{ height: "200px", objectFit: "cover" }}
+        />
+        <Card.Body className="d-flex flex-column justify-content-between">
+          <div>
+            <Card.Title>{title}</Card.Title>
+          </div>
+          <div>
+            <Button
+              variant="primary"
+              href={deployedLink}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="me-2 center"
+            >
+              View Demo
+            </Button>
+            <Button
+              variant="secondary"
+              href={githubLink}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="center"
+            >
+              View Code
+            </Button>
+          </div>
         </Card.Body>
       </Card>
     </Col>
   );
 }
+
+
 
 function Projects() {
   const getImage = (imageName) => {
@@ -52,7 +73,6 @@ function Projects() {
 
   return (
     <div>
-      <h1>Projects</h1>
       <Row>
         {Data.map((project) => (
           <Project
