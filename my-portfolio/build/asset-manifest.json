@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/react-portfolio/static/css/main.c15deaa7.css",
+    "main.js": "/react-portfolio/static/js/main.f1196579.js",
+    "static/media/CV.pdf": "/react-portfolio/static/media/CV.4320a5ef1b88a16ec7fe.pdf",
+    "static/media/forecast-city.png": "/react-portfolio/static/media/forecast-city.794b6107badcadf06225.png",
+    "static/media/profile-pic.jpg": "/react-portfolio/static/media/profile-pic.2b9dd65bb5c39f592ab8.jpg",
+    "static/media/project-one.png": "/react-portfolio/static/media/project-one.fb38c424c957687f127f.png",
+    "static/media/team-page.png": "/react-portfolio/static/media/team-page.2755494a0415bf41cd2f.png",
+    "static/media/workday-schedule.png": "/react-portfolio/static/media/workday-schedule.998fbe89dfe324549160.png",
+    "static/media/generate-password.png": "/react-portfolio/static/media/generate-password.4b1a2cdca565ab6d1925.png",
+    "static/media/project-two.png": "/react-portfolio/static/media/project-two.d699e379f16e2703c6c4.png",
+    "index.html": "/react-portfolio/index.html",
+    "main.c15deaa7.css.map": "/react-portfolio/static/css/main.c15deaa7.css.map",
+    "main.f1196579.js.map": "/react-portfolio/static/js/main.f1196579.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c15deaa7.css",
+    "static/js/main.f1196579.js"
+  ]
+}
