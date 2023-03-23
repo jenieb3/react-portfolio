@@ -1,6 +1,6 @@
 # React-Portfolio
 
-![MIT License](https://img.shields.io/badge/license-MIT-green)
+![MIT License](https://img.shields.io/badge/license-MIT-green) [![Netlify Status](https://api.netlify.com/api/v1/badges/198bf344-2719-49da-98e3-575b0dc3fc33/deploy-status)](https://app.netlify.com/sites/nature-life/deploys)
 
 ## Description
 

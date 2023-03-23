@@ -22,7 +22,7 @@
     "web-vitals": "^2.1.4"
   },
  
-  "homepage": "https://jenieb3.github.io/react-portfolio",
+  "homepage": "https://nature-life.netlify.app",
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
