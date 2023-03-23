@@ -21,8 +21,11 @@
     "styled-components": "^5.3.9",
     "web-vitals": "^2.1.4"
   },
- 
-  "homepage": "https://nature-life.netlify.app",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jenieb3/react-portfolio"
+  },
+  
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
