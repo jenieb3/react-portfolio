@@ -1,0 +1,4 @@
+# Configuration file for Netlify
+site: nature-life.netlify.app
+build:
+  command: npm run build
